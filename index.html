@@ -2,71 +2,22 @@
 <html>
 <head>
 <style>
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+img {
+  opacity:50%;
 }
 
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
-
-.table.table-hover tr:hover {
-    background:#ddd
+img:hover {
+  opacity: 100%;
 }
 </style>
 </head>
 <body>
 
-<h1>Bảng sinh viên </h1>
-
-<table id="customers" class="table table-hover">
-  <tr>
-    <th>Họ tên </th>
-    <th>Giới tính </th>
-    <th>Lớp </th>
-  </tr>
-  <tr>
-    <td>Nguyễn Văn AA</td>
-    <td>Nam </td>
-    <td>12A1 </td>
-  </tr>
-  <tr>
-    <td>Nguyễn Văn BB</td>
-    <td>Nam </td>
-    <td>12A2 </td>
-  </tr>
-  <tr>
-    <td>Dương Thị AA</td>
-    <td>Nữ </td>
-    <td>12A3 </td>
-  </tr>
-  <tr>
-    <td>Trần Thị CC</td>
-    <td>Nữ </td>
-    <td>12A4 </td>
-  </tr>
-  <tr>
-    <td>Dương Văn D </td>
-    <td>Nam </td>
-    <td>12A1 </td>
-  </tr>
- 
-</table>
+<h1>Image Transparency</h1>
+<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5udk3F0F7p61fnjKeuV94maGTfp_kfOdNGw&s" alt="Forest" width="170" height="100">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMuRviGmuOIjiaBd9elsOJ9lthIA9hKV6JGQ&s" alt="Mountains" width="170" height="100">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUaZL_gzB8KOIL8ikM6Vrba04-EbNscLQ_jw&s" alt="Italy" width="170" height="100">
 
 </body>
 </html>
